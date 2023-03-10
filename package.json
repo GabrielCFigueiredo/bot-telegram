@@ -1,0 +1,23 @@
+{
+  "name": "bot-nodejs",
+  "version": "1.0.0",
+  "homepage": "https://GabrielCFigueiredo.github.io/bot-telegram",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "chalk": "^3.0.0",
+    "cron": "^2.2.0",
+    "express": "^4.18.2",
+    "node-emoji": "^1.11.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.21",
+    "telegraf": "3.17.3"
+  }
+}
