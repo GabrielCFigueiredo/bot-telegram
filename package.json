@@ -5,6 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,5 +21,8 @@
     "node-telegram-bot-api": "^0.61.0",
     "nodemon": "^2.0.21",
     "telegraf": "3.17.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
